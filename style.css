@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #151C22;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #151C22;
+    padding: 24px 27px;
+}
+
+.link-item {
+    text-decoration: none;
+}
+
+.show-more {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.main-header-logo {
+    padding: 25px 0 20px;
+    margin: auto;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.user-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-navigation-item {
+    padding: 25px 0;
+    margin-right: 35px;
+}
+
+.user-navigation-item {
+    padding: 20px 0;
+    margin-left: 35px;
+}
+
+.main-header-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo {
+    background-color: #F1F2F4;
+}
+
+.promo-title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Work Sans", "Arial", sans-serif;
+    color: #727A82;
+}
+
+.promo-text {
+    font-family: "Anton", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 128px;
+    line-height: 188px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.promo-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo-text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.promo-img-column {
+    padding: 50px;
+}
