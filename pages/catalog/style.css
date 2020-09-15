@@ -144,7 +144,6 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 25px;
     margin-bottom: 35px;
 }
 
@@ -164,13 +163,14 @@ a {
 .catalog-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .catalog-item {
-    width: 270px;
+    width: 243px;
     margin-bottom: 25px;
     margin-right: 30px;
 }
