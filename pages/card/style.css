@@ -31,13 +31,14 @@ a {
 }
 
 .button {
+    display: inline-block;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
     background-color: #151C22;
-    padding: 24px 27px;
+    padding: 24px 56px;
 }
 
 .main-header-logo {
@@ -87,6 +88,104 @@ a {
 .card {
     background-image: linear-gradient(to right, #ffffff 50%, #f1f2f4 50%);
     margin-top: 50px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-photos-column {
+    width: 540px;
+    margin-right: 60px;
+}
+
+.card-description-column {
+    width: 570px;
+    padding-left: 70px;
+}
+
+.card-photo-full-and-switching {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-photo-preview {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-photo-preview-item {
+    margin-top: 20px;
+}
+
+.card-photo-preview-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.card-photo-prev-button:hover, .card-photo-next-button:hover {
+    background-color: #f1f2f4;
+    border: 0;
+}
+
+.card-photo-prev-button, .card-photo-next-button,
+.card-photo-prev-button:active, .card-photo-next-button:active  {
+    background-color: #ffffff;
+    border: 0;
+}
+
+.card-description-header {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.card-description-text {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card-description-property {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-description-property-title {
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-description-property img:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card-description-property-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #727A82;
+}
+
+.card-description-property-text:not(:last-child) {
+    margin-right: 20px;
+}
+
+.card-description-property-text-current {
+    color: #151C22;
+}
+
+.card-description-price {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .like {
